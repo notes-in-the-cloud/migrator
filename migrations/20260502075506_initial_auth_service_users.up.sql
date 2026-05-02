@@ -9,7 +9,7 @@ CREATE TABLE auth_service.users (
     email varchar(255) NOT NULL UNIQUE,
     password_hash text NOT NULL,
     created_at timestamptz NOT NULL DEFAULT now(),
-    updated_at timestamptz NOT NULL DEFAULT now()
+    updated_at timestamptz
 );
 
 COMMIT;
