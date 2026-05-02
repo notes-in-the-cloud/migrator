@@ -1,0 +1,7 @@
+BEGIN;
+
+DROP TABLE IF EXISTS auth_service.users;
+
+DROP SCHEMA IF EXISTS auth_service CASCADE;
+
+COMMIT;
