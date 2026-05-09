@@ -1,3 +1,5 @@
+BEGIN;
+
 CREATE SCHEMA IF NOT EXISTS reminder;
 
 CREATE TABLE IF NOT EXISTS reminder.reminders (
@@ -52,3 +54,5 @@ CREATE INDEX IF NOT EXISTS idx_notifications_user_read_fired_at
 
 CREATE INDEX IF NOT EXISTS idx_notifications_reminder_id
     ON reminder.notifications(reminder_id);
+
+COMMIT;
