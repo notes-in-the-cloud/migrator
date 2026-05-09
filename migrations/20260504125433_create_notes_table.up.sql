@@ -1,4 +1,4 @@
-BEGIN
+BEGIN;
 
 CREATE SCHEMA IF NOT EXISTS notes_service;
 

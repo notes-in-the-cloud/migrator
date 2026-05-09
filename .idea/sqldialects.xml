@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/migrations/20260504153204_drop_password_hash_unique_constraint.up.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/20260505065329_remove-email-verified-column.down.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/20260505065329_remove-email-verified-column.up.sql" dialect="PostgreSQL" />
+  </component>
+</project>
