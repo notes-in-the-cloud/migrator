@@ -1,0 +1,38 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Java build outputs
+target/
+build/
+bin/
+*.class
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradle-app.setting
+.gradle-cache/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Package files
+*.jar
+*.war
+*.ear
