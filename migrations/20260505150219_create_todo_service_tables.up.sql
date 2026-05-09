@@ -1,3 +1,5 @@
+BEGIN;
+
 CREATE SCHEMA IF NOT EXISTS todo;
 
 CREATE TABLE IF NOT EXISTS todo.todo_lists (
@@ -36,3 +38,5 @@ CREATE INDEX IF NOT EXISTS idx_todo_tasks_list_id
 
 CREATE INDEX IF NOT EXISTS idx_todo_tasks_user_done_list
     ON todo.todo_tasks(user_id, done, list_id);
+
+COMMIT;

@@ -1,3 +1,5 @@
+BEGIN;
+
 CREATE SCHEMA IF NOT EXISTS sharing;
 
 CREATE TABLE IF NOT EXISTS sharing.note_share_links (
@@ -20,3 +22,5 @@ CREATE INDEX IF NOT EXISTS idx_note_share_links_owner_id
 
 CREATE INDEX IF NOT EXISTS idx_note_share_links_expires_at
     ON sharing.note_share_links(expires_at);
+
+COMMIT;
