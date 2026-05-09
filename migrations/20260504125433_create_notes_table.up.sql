@@ -8,7 +8,6 @@ CREATE TABLE notes_service.notes (
     title VARCHAR(255) NOT NULL,
     content TEXT,
     color VARCHAR(50),
-    priority VARCHAR(20) NOT NULL DEFAULT 'None',
     created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     updated_at TIMESTAMPTZ
 );
